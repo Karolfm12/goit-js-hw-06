@@ -11,8 +11,7 @@ loginForm.addEventListener("submit", (e) => {
   } else {
     objLogin.email = email;
     objLogin.password = password;
-    console.log(`${form.elements.email.name}: ${objLogin.email}
-${form.elements.password.name}: ${objLogin.password}`);
+    console.log(objLogin);
   }
   form.reset();
 });
